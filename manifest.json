@@ -1,6 +1,6 @@
 {
   "name": "Nein Cat for 9gag",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Removes all posts referencing a cat on 9gag.com",
   "icons": {
   	"128": "icon.jpg"
