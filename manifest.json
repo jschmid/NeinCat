@@ -1,0 +1,14 @@
+{
+  "name": "Nein Cat for 9gag",
+  "version": "1.0.3",
+  "description": "Removes all posts referencing a cat on 9gag.com",
+  "icons": {
+  	"128": "icon.jpg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*.9gag.com/*"],
+      "js": ["mootools-yui-compressed.js", "neinCat.js"]
+    }
+  ]
+}
